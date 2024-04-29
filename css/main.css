@@ -1226,12 +1226,13 @@ button.owl-prev span, button.owl-next span{
     -webkit-animation-fill-mode: both;
     visibility: hidden;
     pointer-events: none;
+    padding-block-end: 30px;
 }
 .option-list{
     background: #fff;
     overflow-y: auto;
     overflow-x: hidden;
-    height: 309px;
+    height: 290px;
 }
 .option-list::-webkit-scrollbar {
     width: 10px;
@@ -1292,7 +1293,7 @@ button.owl-prev span, button.owl-next span{
 }
 .event-place{
     display: inline-block;
-    width: 416px;
+    width: 415.5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
