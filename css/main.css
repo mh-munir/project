@@ -2005,4 +2005,12 @@ button.owl-prev span, button.owl-next span{
 .should-box--title {
     right: 0;
 }
+.event-date, .event-time {
+    display: inline-block;
+    width: 60px;
+}
+.event-place {
+    width: 180px;
+}
+
 }
