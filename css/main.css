@@ -1268,12 +1268,16 @@ button.owl-prev span, button.owl-next span{
     display: flex;
     gap: 20px;
 }
+.plaseholer{
+    display: flex;
+    align-items: center;
+}
 .event-date, .event-time{
     display: inline-block;
     width: 90px;
     font-weight: 800;
 }
-.select-menu.active .select-btn span {
+.select-menu.active .select-btn .bx-chevron-down {
     -webkit-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
@@ -1297,6 +1301,10 @@ button.owl-prev span, button.owl-next span{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.plaseholer span{
+    font-style: normal !important;
 }
 @-webkit-keyframes fadeInUp {
     from {
