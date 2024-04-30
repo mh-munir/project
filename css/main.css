@@ -1968,6 +1968,11 @@ button.owl-prev span, button.owl-next span{
 .option-list {
     height: 232px;
 }
+.calendar-owl .owl-nav button{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
 
 }
 @media only screen and (max-width: 556px) {
@@ -2006,7 +2011,6 @@ button.owl-prev span, button.owl-next span{
     right: 0;
 }
 .event-date, .event-time {
-    display: inline-block;
     width: 60px;
 }
     .event-place {
