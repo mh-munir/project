@@ -2009,8 +2009,8 @@ button.owl-prev span, button.owl-next span{
     display: inline-block;
     width: 60px;
 }
-.event-place {
-    width: 180px;
-}
+    .event-place {
+        width: 180px;
+    }
 
 }
