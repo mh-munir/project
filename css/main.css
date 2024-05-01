@@ -662,7 +662,7 @@ video[poster]{
     background-color: black;
     z-index: 1;
     -webkit-margin-before: -8px;
-    margin-block-start: -8px;
+    margin-block-start: -15px;
 }
 .calendar-section::before{
     content: "";
